@@ -1,0 +1,47 @@
+{
+      
+   "variants": [
+        {
+            "name": "Stored 1 Downloaded 1",
+            "totalDataStored": 1,
+            "monthlyDownloadedData": 1,
+            "expectedTotalDataStored" : 1,
+            "expectedMonthlyDownloadedData" : 1
+        },
+        {
+            "name": "Stored 41 Downloaded 1",
+            "totalDataStored": 41,
+            "monthlyDownloadedData": 1,
+            "expectedTotalDataStored" : 406,
+            "expectedMonthlyDownloadedData" : 1
+        },
+        {
+            "name": "Stored 41 Downloaded 42",
+            "totalDataStored": 41,
+            "monthlyDownloadedData": 42,
+            "expectedTotalDataStored" : 406,
+            "expectedMonthlyDownloadedData" : 417
+        },
+        {
+            "name": "Stored 100 Downloaded 1",
+            "totalDataStored": 99,
+            "monthlyDownloadedData": 1,
+            "expectedTotalDataStored" : 1000,
+            "expectedMonthlyDownloadedData" : 1
+        },
+        {
+            "name": "Stored 1 Downloaded 100",
+            "totalDataStored": 1,
+            "monthlyDownloadedData": 99,
+            "expectedTotalDataStored" : 1,
+            "expectedMonthlyDownloadedData" : 1000
+        },
+        {
+            "name": "Stored 99 Downloaded 99",
+            "totalDataStored": 99,
+            "monthlyDownloadedData": 99,
+            "expectedTotalDataStored" : 1000,
+            "expectedMonthlyDownloadedData" : 1000
+        }
+    ]
+}
